@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_1.xsd"
+	version="2.1">
+	<!--【ここに入力（Lesson 31）】-->
+
+	<!--【ここに入力（Lesson 32）】-->
+	<tag>
+		<name>Text2Table</name>
+		<tag-class>to.msn.wings.lesson32.P1_Text2TableTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>path</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>titleColor</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>dataColor</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	<tag>
+		<name>TextWriter</name>
+		<tag-class>to.msn.wings.lesson32.P2_TextWriterTag</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>path</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<!--【ここに入力（Lesson 31）】-->
+</taglib>
